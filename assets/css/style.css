@@ -1,0 +1,203 @@
+/* body{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+
+} */
+html {
+    scroll-behavior: smooth;
+}
+#name{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+.vertical-nav{
+    width: 25%;
+    height: 100%;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    margin: 0 0;
+    top: 0;
+    padding-top: 60px; 
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.vertical-nav ul{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.vertical-nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+#dp{
+    width: 50%;
+    border-radius: 50%;
+    height: auto;
+    border: 5px solid skyblue;
+}
+.main{
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin: 0 0;
+    width : 75%;
+    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main .about{
+    text-align: center;
+    margin-top: 12.5%;
+    margin-bottom: 20%;
+    
+}
+.about #abouttext{
+    width: 50%;
+    text-align: center;
+}
+.main .education{
+    padding-top:12.5%;
+    margin-bottom:12.5%;
+}
+.main .skills{
+    padding-top:12.5%;
+    margin-bottom:12.5%;
+}
+.main .contact{
+    padding-top:12.5%;
+    margin-bottom: 25%;
+}
+#edustuff{
+    text-align: left;
+}
+h1{
+    font-family: 'Patrick Hand SC', cursive;
+    margin-bottom: 5%;
+}
+h3{
+    font-family: 'Patrick Hand SC', cursive;
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+h5{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h6{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.2rem;
+
+}
+#totop{
+    margin-bottom: 5%;
+    font-family: 'Patrick Hand', cursive;
+    background: #520582;
+}
+.nav-links{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+}
+#lists,#contactlist{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.4rem;
+}
+li a:hover{
+     text-decoration: none;
+
+}
+a[href="https://www.instagram.com/sskdrn/"]{
+    color: white;
+    font-size: 1.35rem;
+}
+#contactlist{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        position: static;
+    }
+   
+    .vertical-nav{
+        width: 100%;
+        height: auto;
+        background: #41295a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .main{
+        background: #7F00FF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        position: static;
+        width : 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .main .about{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20%;
+        
+    }
+    .about #abouttext{
+        width: 90%;
+        text-align: center;
+    }
+    h4{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h5{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    h6{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1rem;
+    
+    }
+    #totop{
+        font-family: 'Patrick Hand', cursive;
+        background: #520582;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    #edustuff{
+        text-align: left;
+        margin-left: 2%;
+    }
+    #lists,#contactlist{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.35rem;
+        text-align: left;
+    }
+}
+  
