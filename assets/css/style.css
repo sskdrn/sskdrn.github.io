@@ -45,7 +45,6 @@ html {
     width: 50%;
     border-radius: 50%;
     height: auto;
-    border: 5px solid skyblue;
 }
 .main{
     background: #7F00FF;  /* fallback for old browsers */
